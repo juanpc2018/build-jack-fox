@@ -15,7 +15,8 @@ Firefox made drastic changes,
 
 Mercury
 rust
-eqrion /cbindgen 
+eqrion /cbindgen pango
+gtk+-wayland-3.0 >= 3.14 xkbcommon >= 0.4.1 libdrm >= 2.4...
 etc...
 
 /.mozconfig needs to be created manually
@@ -39,6 +40,8 @@ https://bugs.archlinux.org/task/52140
 
 https://jackaudio.org/applications/
 https://github.com/jackaudio/jackaudio.github.com/wiki
+
+----
 
 OLD:
 
