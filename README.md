@@ -20,6 +20,12 @@ ac_add_options --enable-jack
 cd mozilla-unified
 ./mach build
 
+0:54.42 checking MOZ_ALSA_LIBS... -L/home/user/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lasound
+
+0:54.42 ERROR: --enable-jack is not supported with bootstrapped sysroot. Drop the option, or use --without-sysroot or --disable-bootstrap
+*** Fix above errors and then restart with "./mach build"
+
+
 https://firefox-source-docs.mozilla.org/setup/linux_build.html
 
 https://stackoverflow.com/questions/39867647/what-is-the-difference-between-mozconfig-vs-moz-configure
