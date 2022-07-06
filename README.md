@@ -27,6 +27,7 @@ https://firefox-source-docs.mozilla.org/setup/configuring_build_options.html
 https://firefox-source-docs.mozilla.org/build/buildsystem/mozconfigs.html
 https://bugs.archlinux.org/task/52140
 
+https://jackaudio.org/applications/
 https://github.com/jackaudio/jackaudio.github.com/wiki
 
 OLD:
