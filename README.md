@@ -12,9 +12,13 @@ https://bugzilla.mozilla.org/show_bug.cgi?id=783733
 
 Fast Forward to Firefox 102.
 Firefox made drastic changes,
-Now using Mercury
-/.mozconfig is gone, needs to be created manually
-Now there are several moz.configuration
+
+Mercury
+rust
+eqrion /cbindgen 
+etc...
+
+/.mozconfig needs to be created manually
 ac_add_options --enable-jack
 
 cd mozilla-unified
