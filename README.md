@@ -1,3 +1,23 @@
+Seems this script stop working in 
+Ubuntu 18 era, probably was working in Ubuntu 17 or 16, but 17 had a serious problem, with libso6
+Probably Near Firefox 80,
+
+Firefox made drastic changes,
+Now using Mercury
+mozconfig is gone,
+Now there are several moz.configuration
+ac_add_options --enable-jack
+is Not defined,
+wont build.
+
+cd mozilla-unified
+./mach build
+
+https://firefox-source-docs.mozilla.org/setup/linux_build.html
+
+
+OLD:
+
 build-jack-fox
 ==============
 
