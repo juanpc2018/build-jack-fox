@@ -1,20 +1,33 @@
 Seems this script stop working in 
-Ubuntu 18 era, probably was working in Ubuntu 17 or 16, but 17 had a serious problem, with libso6
-Probably Near Firefox 80,
+Ubuntu 18 era, was working in 2016,
+probably was working in Ubuntu 17 or 16, but 17 had a serious problems, with libso6 desktop conpositor, etc...,
+XMC cannot be compiled also,
 
+probably this script worked Near Firefox 80,
+there is a pre-compiled Firefox 54 with --jack, but... 
+does Not work with modern internet,
+
+Firefox with Jack initial version was 10 years ago, 2012,
+https://bugzilla.mozilla.org/show_bug.cgi?id=783733
+
+Fast Forward to Firefox 102.
 Firefox made drastic changes,
 Now using Mercury
-mozconfig is gone,
+/.mozconfig is gone, needs to be created manually
 Now there are several moz.configuration
 ac_add_options --enable-jack
-is Not defined,
-wont build.
 
 cd mozilla-unified
 ./mach build
 
 https://firefox-source-docs.mozilla.org/setup/linux_build.html
 
+https://stackoverflow.com/questions/39867647/what-is-the-difference-between-mozconfig-vs-moz-configure
+https://firefox-source-docs.mozilla.org/setup/configuring_build_options.html
+https://firefox-source-docs.mozilla.org/build/buildsystem/mozconfigs.html
+https://bugs.archlinux.org/task/52140
+
+https://github.com/jackaudio/jackaudio.github.com/wiki
 
 OLD:
 
